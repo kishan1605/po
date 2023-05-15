@@ -1,0 +1,224 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin-top: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#landingpage{
+    margin: 0 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    column-gap: 10px;
+    background-color: #898989;
+    height: 70vh;
+}
+
+#herosec{
+    margin:auto 3rem;
+    padding-top: 160px;
+    padding-left: 140px;
+    height: 70vh;
+    grid-column: 1/7;
+}
+
+#herotext{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px; 
+    position: relative;
+
+}
+#txt{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #5B5B5B;
+    padding-left: 20px;
+}
+
+#herodes{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px; 
+    margin-top: 1rem;
+    color: #222020;
+    position: relative;
+
+}
+
+#imagesec{
+    height: 70vh;
+    background-image: linear-gradient(90.02deg, #898989 1.76%, rgba(137, 137, 137, 0.761029) 15.96%, rgba(137, 137, 137, 0.644138) 25.6%, rgba(137, 137, 137, 0.532726) 37.5%, rgba(83, 82, 82, 0) 112.76%), url("me1.jpg");
+    grid-column: 7/-1;
+    background-size:cover;
+    background-position:left;
+    position: relative;
+}
+#logo{
+    margin: 7px 0 0 10px;
+}
+#menu{
+    background-color: black;
+}
+
+#about{
+    height:73vh;
+    overflow:hidden;
+}
+#about_img{
+    height: 70vh;
+    float: left;
+}
+#about_des{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 70vh;
+    float: left;
+}
+#head{
+    font-size: 40px;color: #4c4b4b;
+
+}
+#des{
+    font-size: 18px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 2px;
+    line-height: 23px;
+    
+}
+#img2{
+    margin: 27px 150px 40px 150px ;
+    width: 330px;
+    position: relative;
+   
+}
+#cert{
+    margin: 0;
+    height: 70vh;
+    background-color: #222020;
+    overflow-y: scroll;
+}
+h1{
+    padding-top: 20px;
+    color: azure;
+}
+.dropdown{
+    position: relative;
+    width: 200px;
+    right: 0;
+   
+    z-index: 100;
+}
+
+.list{
+    position:absolute;
+    top:68px;
+    background-color: black;
+    right:0;
+    z-index: 100;
+    list-style-type: none;
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    margin: 0px 10px 0 0;
+}
+
+.list.active{
+    max-height: 500px;
+}
+
+.menuicon{
+    display: flex;
+    cursor: pointer;
+    float: right;
+    margin: 10px 20px 0 0;
+    border-radius: 11px;
+}
+.menuicon :hover{
+    transform: scale(1.1);
+}
+.listitems{
+    padding: 20px 100px 20px 100px;
+    color: azure;
+    font-size: 24px;
+}
+
+.listitems:hover{
+    background-color: white;
+    color: black;
+    
+}
+.news_img{
+    float: left;
+    width:500px;
+    align-items: center;
+    text-align: center;
+    margin-top: 55px;
+    position: relative;
+}
+
+.img1{
+    width:280px;
+}
+
+.para1{
+    width:400px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 35px;
+    font-family:fantasy;
+    font-weight: 200;
+    font-size: 24px;
+    color: white;
+}
+
+.news_img a{
+    color:lightgray;
+}
+#contact{
+    background-color: lightblue;
+    height: 65vh;
+}
+#reach{
+    padding-top:20px;
+    font-size: 36px;
+    color: rgb(149, 10, 10);
+    font-weight: bolder;
+}
+.cert_img{
+    float: left;
+    width:375px;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.img2{
+    width:200px;
+}
+.viewmore{
+    color: rgb(0, 0, 0);
+    width:100px;
+    border: 2px double rgb(15, 15, 17);
+    padding: 5px 15px 5px 15px;
+    margin: auto;
+}
+#contact a:link{
+    color: black;
+    font-size: 20px;
+}
+.para2{
+    margin-top :75px;
+    font-size: 20px;
+}
